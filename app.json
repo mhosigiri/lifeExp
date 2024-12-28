@@ -1,27 +1,26 @@
 {
   "expo": {
-    "name": "lifeExp",
+    "name": "Life Calculator",
     "slug": "lifeExp",
+    "description": "Hurry up! Go back to work. You do not have enough weeks to waste. See how many weeks you got from now on till when you want to retire.",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
+    "icon": "./assets/images/calendar.png",
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
     "splash": {
-      "image": "./assets/images/splash.png",
+      "image": "./assets/images/weeks.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true,
-      "bundleIdentifier": "com.mhosigiri.lifeExp"
+      "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      },
-      "package": "com.mhosigiri.lifeExp"
+      }
     },
     "web": {
       "bundler": "metro",
@@ -33,20 +32,6 @@
     ],
     "experiments": {
       "typedRoutes": true
-    },
-    "extra": {
-      "router": {
-        "origin": false
-      },
-      "eas": {
-        "projectId": "bb27bf42-5e41-44b4-a289-0ec916539761"
-      }
-    },
-    "runtimeVersion": {
-      "policy": "appVersion"
-    },
-    "updates": {
-      "url": "https://u.expo.dev/bb27bf42-5e41-44b4-a289-0ec916539761"
     }
   }
 }
